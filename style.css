@@ -86,7 +86,7 @@ ul li.switch a:before{
 }
 
 .switchMode{
-    background-color: #fff;
+    background-color: #fff!important;
     color: #000;
 }
 .switchMode .home{
@@ -106,6 +106,12 @@ ul li.switch a:before{
 /* menu btn styling */
 .menu-btn {
     color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.menu-btn-blk {
+    color: #000;
     font-size: 23px;
     cursor: pointer;
     display: none;
