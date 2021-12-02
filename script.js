@@ -14,10 +14,16 @@ $(document).ready(function(){
 });
 
     //switch toggle
+     
+    var blkIco = document.getElementsByClassName("menu-btn");
     $(".switch").click(function(){
         $("body").toggleClass("switchMode");
+        $("ul").toggleClass("switchMode");
+        $(".menu-btn").toggleClass("menu-btn-blk");
     });
-    
+
+
+
     // slide-up script
     $(".scroll-up-btn").click(function(){
         $("html").animate({scrollTop: 0});
